@@ -30,7 +30,7 @@ textarea {
 }
 
 a {
-	color: #FF0;
+  color: #ff0;
   text-decoration: none;
 }
 
@@ -75,13 +75,18 @@ p {
 .item {
   /* Masonry bricks or child elements */
   display: inline-block;
-  margin: 0;
   width: 100%;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.img-right {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
 }
 
 .tm-relative {
@@ -101,7 +106,6 @@ img {
 }
 
 .tm-block-left {
-  right: 20px;
   bottom: 20px;
 }
 
@@ -111,13 +115,21 @@ img {
 }
 
 .tm-block-right {
-  padding: 15px 0 20px 20px;
+  top: 20px;
+  bottom: 20px;
 }
 
 .tm-img-left {
   display: block;
   margin-right: 0;
   margin-left: auto;
+}
+
+.tm-img-left-down {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  margin-bottom: 40px;
 }
 
 .tm-hero-text {
@@ -152,8 +164,29 @@ img {
   align-items: center;
 }
 
+.tm-block-brand-outer {
+  position: relative;
+  left: 50px;
+  padding: 70px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .tm-brand-name {
   margin: 0 40px 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.tm-brand-name-outer {
+  position: relative;
+  margin: 0 40px 0;
+  width: 100%;
+  text-align: right;
   font-size: 2.5rem;
   font-weight: 400;
 }
